@@ -1,0 +1,307 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.titleSection{
+    width: 960px;
+    height: 404px;
+    background-image: url(../img/bg/title_image.jpg);
+    overflow: hidden;
+    position: relative;
+}
+
+.logo{
+	width: 162px;
+	height: 266px;
+	background-image: url(../img/logo.png);
+	margin: 40px auto 0px auto;
+
+}
+
+.title{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+}
+
+.shadowdivider{
+    width: 100%;
+    height: 11px;
+    background-image: url(../img/shadowdivider.png);
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0px;
+    background-size: 100% 100%;
+
+}
+
+.shadowdividerSection{
+    width: 100%;
+    height: 11px;
+    background-image: url(../img/shadowdivider.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.shadowdivider.title{
+    bottom: -29px;
+
+
+}
+
+
+.navContainer{
+    width:960px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0px auto 0px auto;
+    z-index: 1;
+    
+}
+
+.navBar{
+    width:712px;
+    height:72px;
+    list-style-type: none;
+    margin: 0px auto 0px auto;
+    padding: 0;
+}
+
+.btnHome{
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    cursor: pointer; 
+}
+
+.btnAboutMe{
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    cursor: pointer; 
+}
+
+.btnPortfolio{
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    cursor: pointer; 
+}
+
+.btnJournal{
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    cursor: pointer; 
+}
+
+.btnContactMe{
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    cursor: pointer; 
+}
+
+.introSection {
+    width: 960px;
+    height: 380px;
+    position: relative;
+    margin: 0px auto 0px auto;
+
+}
+
+.sectionTitle {
+    height: 24px;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.sectionText {
+    width: 712px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+        
+}
+
+.portfolioSection {
+    height: 648px;
+    width: 960px;
+    background-color: #d2d2d2;
+    position: relative;
+    overflow: hidden;
+
+        
+        
+
+        
+}
+
+.BlogSection {
+    height: 470px;
+    width: 960px;
+    background-color: #e5e5e5;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contactSection {
+    width: 960px;
+    height: 220px;
+    background-color: #d2d2d2;
+    overflow: hidden;
+
+}
+
+.contactBar {
+    width: 360px;
+    height: 80px;
+    margin: 0px auto 0px auto;
+}
+
+.contactEmail {
+    width: 67px;
+    height: 73px;
+    margin: 0px 10px 0px 10px;
+    background-image: url(../img/socialEmail.jpg);
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.contactFacebook {
+    width: 67px;
+    height: 73px;
+    margin: 0px 10px 0px 10px;
+    background-image: url(../img/socialFacebook.jpg);
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.contactYoutube {
+    width: 67px;
+    height: 73px;
+    margin: 0px 10px 0px 10px;
+    background-image: url(../img/socialYoutube.jpg);
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.contactInstagram {
+    width: 67px;
+    height: 73px;
+    margin: 0px 10px 0px 10px;
+    background-image: url(../img/socialInstagram.jpg);
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.mainContainer {
+    width: 960px;
+    margin: 0px auto 0px auto;
+}
+
+.pictureStrip {
+    width: 436px;
+    margin: 40px 10px 0px 0px;
+    float: left;
+}
+
+.portfolioDiscription {
+    width: 494px;
+    margin: 40px 0px 0px 20px;
+    float: right;
+}
+
+.portfolioTitle {
+    height: 24px;
+    text-align: left;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.portfolioSubtitle {
+    height: 24px;
+    text-align: left;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+        
+}
+
+.portfolioText {
+    height: auto;
+    margin: 10px auto 0px auto;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.blogContent {
+    width: 600px;
+    margin: 40px 0px 0px 20px;
+    float: left;
+}
+
+.blogTitle {
+    height: 24px;
+    text-align: left;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.blogSubtitle {
+    height: 24px;
+    text-align: left;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+        
+}
+
+.blogText {
+    height: auto;
+    margin: 10px auto 0px auto;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.blogDetails {
+    width: 268px;
+    margin: 40px 20px 0px 20px;
+    float: right;
+}
+
+.blogDetailsTitle {
+    height: 24px;
+    text-align: left;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.blogDetailsSubtitle {
+    height: 24px;
+    text-align: left;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 10px;
+        
+}
+
+.jumpSpacer{
+  display: block;
+  height: 83px;
+  margin-top: -90px; 
+  visibility: hidden;
+}
